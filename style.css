@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: rgb(59, 80, 150);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+body > div {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid rgb(59, 80, 150);
+  margin: 15px;
+  padding: 10px;
+}
+
+#info {
+  border: none;
+}
+
+#info table {
+  margin: 10px;
+}
+
+#info p:nth-child(even) {
+  margin: 10px;
+}
+
+#goals ul {
+  text-align: left;
+  margin-left: 25px;
+}
+
+#goals li {
+  padding-bottom: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+table td {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+#schedule table td:nth-child(1) {
+  color: dimgrey;
+}
+
+#schedule table td:nth-child(1) {
+  color: dimgrey;
+}
+
+#course table thead {
+  color: dimgrey;
+  text-align: center;
+  border-bottom: 1px dotted dimgrey;
+  border-collapse: separate;
+  /* padding: 10px 10px; */
+}
+
+.container {
+  display: flex;
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.container > div:hover {
+  background-color: rgb(59, 80, 150);
+  cursor: pointer;
+}
+
+.ico {
+  width: 100px;
+}
